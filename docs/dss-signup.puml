@@ -1,0 +1,10 @@
+@startuml DSS-signup
+title Sign up AI
+actor c as ":Client"
+skinparam style strictuml
+participant ":Système" as Sys
+
+c -> Sys : signupAI(username : String, email : String, password : String, confirmPassword : String)
+Sys --> c : Signup response
+
+@enduml

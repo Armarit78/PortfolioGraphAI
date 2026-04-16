@@ -1,0 +1,19 @@
+@startuml DSS-classique
+title Utilisation IA
+actor c as ":Client"
+skinparam style strictuml
+participant ":Système" as Sys
+
+c -> Sys : conectionAI(email : String, password : String)
+alt Successful login
+    Sys -->> c :  Affichage de l'interface
+    loop Interaction with AI
+        c -> Sys : requestAI(prompt : String)
+        Sys -->> c : Conseils de l'IA
+    end
+else Failed login
+    Sys -->> c : Erreur de Connexion
+end
+c -> Sys : disconnectAI()
+
+@enduml

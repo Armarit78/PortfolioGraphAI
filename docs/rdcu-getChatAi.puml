@@ -1,0 +1,12 @@
+@startuml rdcu connexionAI
+skinparam style strictuml
+skinparam defaultfontname Verdana
+title RDCU getChat(idChat : int)
+Participant ":controllerAi" as ca
+Participant ":serviceSaveChat" as sc
+
+-> ca : getChatAi(idChat : int)
+ca -> sc : getChat(idChat : int)
+sc -->> ca : Conversation
+
+@enduml

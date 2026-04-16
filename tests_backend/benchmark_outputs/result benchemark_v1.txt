@@ -1,0 +1,103 @@
+=============================================================================================== short test summary info (benchemark 1) 6/100 FAIL ===================================================================================
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark1[Tu peux me dire le cours de AAPL ?] - AssertionError: Arguments incorrects. Reçu: {'symbol': 'AMA.AX', 'company': 'AMA Group Limited'}, Attendu: {'symbol': 'AAPL'}
+assert False
+ +  where False = args_exact_match({'symbol': 'AAPL'}, {'symbol': 'AMA.AX', 'company': 'AMA Group Limited'}, 'price')
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark1[Donne-moi le prix de GOOGL] - AssertionError: Arguments incorrects. Reçu: {'symbol': '301510.SZ', 'company': 'Googol Technology Co., Ltd.'}, Attendu: {'symbol': 'GOOGL'}
+assert False
+ +  where False = args_exact_match({'symbol': 'GOOGL'}, {'symbol': '301510.SZ', 'company': 'Googol Technology Co., Ltd.'}, 'price')
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark1[Peux-tu me dire le Sharpe ratio de Nvidia ?] - AssertionError: Intention incorrecte pour 'Peux-tu me dire le Sharpe ratio de Nvidia ?'
+assert 'price' == 'stats'
+  
+  - stats
+  + price
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark1[Tu peux me sortir les stats de GOOGL sur 6 mois ?] - AssertionError: Arguments incorrects. Reçu: {'symbol': '301510.SZ', 'company': 'Googol Technology Co., Ltd.', 'period': '6mo'}, Attendu: {'symbol': 'GOOGL', 'period': '6mo'}
+assert False
+ +  where False = args_exact_match({'symbol': 'GOOGL', 'period': '6mo'}, {'symbol': '301510.SZ', 'company': 'Googol Technology Co., Ltd.', 'period': '6mo'}, 'stats')
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark1[Montre-moi des actions \xe0 faible b\xeata] - AssertionError: Route incorrecte pour 'Montre-moi des actions à faible bêta'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark1[Explique-moi ce qu\u2019est un portefeuille d\xe9fensif] - AssertionError: Route incorrecte pour 'Explique-moi ce qu’est un portefeuille défensif'
+assert 'tool' == 'chat'
+  
+  - chat
+  + tool
+
+--------------------------------
+
+=============================================================================================== short test summary info (benchemark 2) 6/100 FAIL ===========================================
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark2[Je veux les indicateurs de Microsoft sur 1 an] - AssertionError: Route incorrecte pour 'Je veux les indicateurs de Microsoft sur 1 an'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark2[Affiche les indicateurs de Tesla sur 6 mois] - AssertionError: Route incorrecte pour 'Affiche les indicateurs de Tesla sur 6 mois'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark2[Montre-moi des actions am\xe9ricaines \xe0 faible volatilit\xe9] - AssertionError: Route incorrecte pour 'Montre-moi des actions américaines à faible volatilité'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark2[Montre-moi des actions de sant\xe9 avec dividendes] - AssertionError: Route incorrecte pour 'Montre-moi des actions de santé avec dividendes'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark2[Montre-moi des actions avec rendement et faible volatilit\xe9] - AssertionError: Route incorrecte pour 'Montre-moi des actions avec rendement et faible volatilité'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark2[Explique-moi ce qu'est un portefeuille \xe9quilibr\xe9] - AssertionError: Route incorrecte pour 'Explique-moi ce qu'est un portefeuille équilibré'
+assert 'tool' == 'chat'
+  
+  - chat
+  + tool
+
+--------------------------------
+
+=============================================================================================== short test summary info (benchemark 3) 9/80 FAIL ==================================================================
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Tesla \xe7a cote combien en ce moment ?] - AssertionError: Route incorrecte pour 'Tesla ça cote combien en ce moment ?'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Je veux la valeur actuelle de ASML] - AssertionError: Route incorrecte pour 'Je veux la valeur actuelle de ASML'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Herm\xe8s vaut combien en bourse ?] - AssertionError: Arguments incorrects. Reçu: {'symbol': 'FHI', 'company': 'Federated Hermes, Inc.'}, Attendu: {'symbol': 'RMS.PA'}
+assert False
+ +  where False = args_exact_match({'symbol': 'RMS.PA'}, {'symbol': 'FHI', 'company': 'Federated Hermes, Inc.'}, 'price')
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Je veux les statistiques de Herm\xe8s sur 5 ans] - AssertionError: Arguments incorrects. Reçu: {'symbol': 'FHI', 'company': 'Federated Hermes, Inc.', 'period': '5y'}, Attendu: {'symbol': 'RMS.PA', 'period': '5y'}
+assert False
+ +  where False = args_exact_match({'symbol': 'RMS.PA', 'period': '5y'}, {'symbol': 'FHI', 'company': 'Federated Hermes, Inc.', 'period': '5y'}, 'stats')
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Herm\xe8s ou LVMH, lequel est le plus performant sur 1 an ?] - AssertionError: Arguments incorrects. Reçu: {'symbol1': 'FHI', 'company1': 'Federated Hermes, Inc.', 'symbol2': 'MC.PA', 'company2': 'LVMH Moët Hennessy - Louis Vuitton, Société Européenne', 'period': '1y'}, Attendu: {'symbol1': 'RMS.PA', 'symbol2': 'MC.PA', 'period': '1y'}
+assert False
+ +  where False = args_exact_match({'symbol1': 'RMS.PA', 'symbol2': 'MC.PA', 'period': '1y'}, {'symbol1': 'FHI', 'company1': 'Federated Hermes, Inc.', 'symbol2': 'MC.PA', 'company2': 'LVMH Mo\xebt Hennessy - Louis Vuitton, Soci\xe9t\xe9 Europ\xe9enne', 'period': '1y'}, 'compare')
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Je veux des ETF US avec bon rating et faible risque] - AssertionError: Route incorrecte pour 'Je veux des ETF US avec bon rating et faible risque'
+assert 'chat' == 'tool'
+  
+  - tool
+  + chat
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Explique-moi ce qu\u2019est un portefeuille d\xe9fensif] - AssertionError: Route incorrecte pour 'Explique-moi ce qu’est un portefeuille défensif'
+assert 'tool' == 'chat'
+  
+  - chat
+  + tool
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Comment fonctionne un screener d\u2019actions ?] - AssertionError: Route incorrecte pour 'Comment fonctionne un screener d’actions ?'
+assert 'tool' == 'chat'
+  
+  - chat
+  + tool
+FAILED tests_backend/test_router_benchmark.py::test_semantic_router_case_benchmark3[Peux-tu m\u2019expliquer comment comparer deux actions sans regarder seulement le prix ?] - AssertionError: Route incorrecte pour 'Peux-tu m’expliquer comment comparer deux actions sans regarder seulement le prix ?'
+assert 'tool' == 'chat'
+  
+  - chat
+  + tool
+

@@ -1,0 +1,640 @@
+{
+  "before_count": 136582,
+  "after_count": 1948,
+  "removed_count": 134634,
+  "reason_counts": {
+    "dropped_redundant_derived": 43349,
+    "dropped_redundant_exact": 63640,
+    "dropped_redundant_canonical": 27437,
+    "dropped_tickerish": 166,
+    "dropped_too_short": 33,
+    "kept_generated_useful": 1946,
+    "dropped_generic_ambiguous": 9,
+    "kept_non_generated": 2
+  },
+  "kept_examples": [
+    {
+      "alias": "3s industry",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "605305.SS"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "7nr retail",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "7NR.BO"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "a f enterprises",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "AFEL.BO"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "a5 asset five",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "A5.BK"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "aac clyde space",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "AAC.ST"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "aarey drugs pharm",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "AAREYDRUGS.NS"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "aayush art and bullion",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "AAYUSHBULL.BO"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "aayush wellness",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "AAYUSH.BO"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "abans financial srvcs",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "AFSL.NS"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "aboitiz equity venture",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "ABOIF"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "abrdn global infrastructure",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "ASGI"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "absolent air care",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "ABSO.ST"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "academedia",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "ACAD.ST"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "accelerate prop fund",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "APF.JO"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "accelya soln india",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "ACCELYA.NS"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "access group hldgs",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "7042.T"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "acconeer",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "ACCON.ST"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "ace integrated solu",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "ACEINTEG.NS"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "aces electronic",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "3605.TW"
+      ],
+      "reason": "generated_useful"
+    },
+    {
+      "alias": "acg autocorp",
+      "source": "generated_from_company_enriched",
+      "tickers": [
+        "ACG.BK"
+      ],
+      "reason": "generated_useful"
+    }
+  ],
+  "removed_examples": {
+    "redundant_exact": [
+      {
+        "alias": "008110 ks 0p0000av83 0",
+        "tickers": [
+          "008110.KS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "01 quantum inc",
+        "tickers": [
+          "ONE.V"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "029 group se",
+        "tickers": [
+          "Z29.DE"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "029 group se i",
+        "tickers": [
+          "Z29.DE"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "06magna",
+        "tickers": [
+          "06N.WA"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "08octava",
+        "tickers": [
+          "08N.WA"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "09women",
+        "tickers": [
+          "366030.KQ"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "09women co ltd",
+        "tickers": [
+          "366030.KQ"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "0to7",
+        "tickers": [
+          "159580.KQ"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1 1 ag",
+        "tickers": [
+          "1U1.DE"
+        ],
+        "source": "generated_from_company_enriched"
+      }
+    ],
+    "redundant_canonical": [
+      {
+        "alias": "01 quantum",
+        "tickers": [
+          "ONE.V"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "029",
+        "tickers": [
+          "Z29.DE"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1 1",
+        "tickers": [
+          "1U1.DE"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1 800 flowers com",
+        "tickers": [
+          "FLWS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1 production film",
+        "tickers": [
+          "8458.TWO"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "104",
+        "tickers": [
+          "3130.TW"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "10x genomics",
+        "tickers": [
+          "TXG"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1414 degrees",
+        "tickers": [
+          "14D.AX"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "160 health international",
+        "tickers": [
+          "2656.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "17live",
+        "tickers": [
+          "LVR.SI"
+        ],
+        "source": "generated_from_company_enriched"
+      }
+    ],
+    "redundant_derived": [
+      {
+        "alias": "008110",
+        "tickers": [
+          "008110.KS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "008110 ks",
+        "tickers": [
+          "008110.KS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "008110 ks 0p0000av83",
+        "tickers": [
+          "008110.KS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "029 group",
+        "tickers": [
+          "Z29.DE"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1 800",
+        "tickers": [
+          "FLWS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1 800 flowers",
+        "tickers": [
+          "FLWS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1 production",
+        "tickers": [
+          "8458.TWO"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "11 bit",
+        "tickers": [
+          "11B.WA"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "11 bit studios",
+        "tickers": [
+          "11B.WA"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "1414",
+        "tickers": [
+          "14D.AX"
+        ],
+        "source": "generated_from_company_enriched"
+      }
+    ],
+    "tickerish": [
+      {
+        "alias": "1957",
+        "tickers": [
+          "8495.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "2curex",
+        "tickers": [
+          "2CUREX.ST"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "4c",
+        "tickers": [
+          "4C.ST"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "aak",
+        "tickers": [
+          "AAK.ST"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "acarix",
+        "tickers": [
+          "ACARIX.ST"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "acast",
+        "tickers": [
+          "ACAST.ST"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "acroud",
+        "tickers": [
+          "ACROUD.ST"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "aec",
+        "tickers": [
+          "8320.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "almendral",
+        "tickers": [
+          "ALMENDRAL.SN"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "ambea",
+        "tickers": [
+          "AMBEA.ST"
+        ],
+        "source": "generated_from_company_enriched"
+      }
+    ],
+    "numeric": [],
+    "too_short": [
+      {
+        "alias": "3dg",
+        "tickers": [
+          "2882.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "acer",
+        "tickers": [
+          "2353.TW",
+          "2432.TW",
+          "6690.TWO",
+          "6751.TWO",
+          "6811.TWO"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "benq",
+        "tickers": [
+          "2581.HK",
+          "4116.TWO",
+          "8215.TW"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "c i",
+        "tickers": [
+          "CIG.BK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "cdv",
+        "tickers": [
+          "8280.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "ckh",
+        "tickers": [
+          "0001.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "d c",
+        "tickers": [
+          "LOUP.PA"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "dpsc",
+        "tickers": [
+          "DPSCLTD.NS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "efh",
+        "tickers": [
+          "8YY.SI"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "eva",
+        "tickers": [
+          "0838.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      }
+    ],
+    "generic_ambiguous": [
+      {
+        "alias": "catena",
+        "tickers": [
+          "CATE.ST",
+          "CTM.ST"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "firefly",
+        "tickers": [
+          "FFM.AX",
+          "FIRE.ST",
+          "FLY"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "kingland",
+        "tickers": [
+          "000711.SZ",
+          "1751.HK",
+          "6264.TWO"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "nimbus",
+        "tickers": [
+          "BOAT.ST",
+          "NIMBSPROJ.BO"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "redco",
+        "tickers": [
+          "1622.HK",
+          "2370.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "shunho",
+        "tickers": [
+          "0219.HK",
+          "0253.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "soken",
+        "tickers": [
+          "4972.T",
+          "7413.T"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "steel",
+        "tickers": [
+          "0320.KL",
+          "ISSP.JK",
+          "SAIL.NS",
+          "SSWL.NS",
+          "STEELCITY.NS"
+        ],
+        "source": "generated_from_company_enriched"
+      },
+      {
+        "alias": "zhongan",
+        "tickers": [
+          "0672.HK",
+          "2271.HK",
+          "6060.HK"
+        ],
+        "source": "generated_from_company_enriched"
+      }
+    ]
+  },
+  "filter_policy": {
+    "kept_always": [
+      "non generated aliases"
+    ],
+    "dropped_generated_when": [
+      "already covered by exact_name",
+      "already covered by canonical_long_name",
+      "already covered by dataset derived forms",
+      "alias is tickerish / shortTickerish",
+      "alias is purely numeric",
+      "alias is too short and non-distinctive",
+      "alias is generic ambiguous single-token generated alias"
+    ]
+  }
+}

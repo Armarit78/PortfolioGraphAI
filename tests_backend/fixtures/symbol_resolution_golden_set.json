@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "source": "manually_curated_and_semi_validated_from_company_enriched_2026-04-04",
+  "resolver_cases": [
+    {
+      "id": "ticker_aapl",
+      "category": "ticker exact",
+      "query": "AAPL",
+      "expected_ticker": "AAPL"
+    },
+    {
+      "id": "ticker_googl",
+      "category": "ticker exact",
+      "query": "GOOGL",
+      "expected_ticker": "GOOGL"
+    },
+    {
+      "id": "ticker_msft",
+      "category": "ticker exact",
+      "query": "MSFT",
+      "expected_ticker": "MSFT"
+    },
+    {
+      "id": "ticker_nvda",
+      "category": "ticker exact",
+      "query": "NVDA",
+      "expected_ticker": "NVDA"
+    },
+    {
+      "id": "brand_google",
+      "category": "brand",
+      "query": "Google",
+      "expected_ticker": "GOOGL"
+    },
+    {
+      "id": "brand_facebook",
+      "category": "brand",
+      "query": "Facebook",
+      "expected_ticker": "META"
+    },
+    {
+      "id": "brand_hermes_plain",
+      "category": "brand",
+      "query": "Hermes",
+      "expected_ticker": "RMS.PA"
+    },
+    {
+      "id": "brand_hermes_accent",
+      "category": "brand",
+      "query": "Hermès",
+      "expected_ticker": "RMS.PA"
+    },
+    {
+      "id": "brand_lvmh",
+      "category": "brand",
+      "query": "LVMH",
+      "expected_ticker": "MC.PA"
+    },
+    {
+      "id": "brand_apple",
+      "category": "brand",
+      "query": "Apple",
+      "expected_ticker": "AAPL"
+    },
+    {
+      "id": "brand_boeing",
+      "category": "brand",
+      "query": "Boeing",
+      "expected_ticker": "BA"
+    },
+    {
+      "id": "brand_airbus",
+      "category": "brand",
+      "query": "Airbus",
+      "expected_ticker": "AIR.PA"
+    },
+    {
+      "id": "long_apple",
+      "category": "nom long",
+      "query": "Apple Inc.",
+      "expected_ticker": "AAPL"
+    },
+    {
+      "id": "long_alphabet",
+      "category": "nom long",
+      "query": "Alphabet Inc.",
+      "expected_ticker": "GOOGL"
+    },
+    {
+      "id": "long_microsoft",
+      "category": "nom long",
+      "query": "Microsoft Corporation",
+      "expected_ticker": "MSFT"
+    },
+    {
+      "id": "long_nvidia",
+      "category": "nom long",
+      "query": "NVIDIA Corporation",
+      "expected_ticker": "NVDA"
+    },
+    {
+      "id": "long_airbus",
+      "category": "nom long",
+      "query": "Airbus SE",
+      "expected_ticker": "AIR.PA"
+    },
+    {
+      "id": "long_boeing",
+      "category": "nom long",
+      "query": "The Boeing Company",
+      "expected_ticker": "BA"
+    },
+    {
+      "id": "long_orange_sa",
+      "category": "nom long",
+      "query": "Orange S.A.",
+      "expected_ticker": "ORA.PA"
+    },
+    {
+      "id": "ambiguous_orange",
+      "category": "nom ambigu",
+      "query": "Orange",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "ORA.PA",
+        "OPL.WA"
+      ]
+    },
+    {
+      "id": "collision_aab",
+      "category": "shortTicker collision",
+      "query": "AAB",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "AAB.TO",
+        "AAB.CO"
+      ]
+    },
+    {
+      "id": "collision_aac",
+      "category": "shortTicker collision",
+      "query": "AAC",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "AAC.AX",
+        "AAC.ST"
+      ]
+    },
+    {
+      "id": "collision_abb",
+      "category": "shortTicker collision",
+      "query": "ABB",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "ABB.AX",
+        "ABB.NS"
+      ]
+    },
+    {
+      "id": "collision_ace",
+      "category": "shortTicker collision",
+      "query": "ACE",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "ACE.BK",
+        "ACE.ST",
+        "ACE.MI"
+      ]
+    },
+    {
+      "id": "collision_acs",
+      "category": "shortTicker collision",
+      "query": "ACS",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "ACS.MC",
+        "ACS.JO"
+      ]
+    },
+    {
+      "id": "collision_aden",
+      "category": "shortTicker collision",
+      "query": "ADEN",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "ADEN.SW",
+        "ADEN.TO"
+      ]
+    },
+    {
+      "id": "collision_aav",
+      "category": "shortTicker collision",
+      "query": "AAV",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "AAV.BK",
+        "AAV.TO"
+      ]
+    },
+    {
+      "id": "collision_abra",
+      "category": "shortTicker collision",
+      "query": "ABRA",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "ABRA.TO",
+        "ABRA.TA"
+      ]
+    },
+    {
+      "id": "collision_acx",
+      "category": "shortTicker collision",
+      "query": "ACX",
+      "expected_ambiguous": true,
+      "expected_candidates_contains": [
+        "ACX.MC",
+        "ACX.TO"
+      ]
+    }
+  ],
+  "pipeline_cases": [
+    {
+      "id": "pipe_price_ticker_aapl",
+      "category": "ticker exact",
+      "text": "cours de AAPL",
+      "llm_companies": [
+        "AAPL"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "price",
+      "expected_symbol": "AAPL"
+    },
+    {
+      "id": "pipe_price_brand_google",
+      "category": "brand",
+      "text": "Donne-moi le prix de Google",
+      "llm_companies": [
+        "Google"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "price",
+      "expected_symbol": "GOOGL"
+    },
+    {
+      "id": "pipe_price_brand_facebook",
+      "category": "brand",
+      "text": "Je veux le prix de Facebook",
+      "llm_companies": [
+        "Facebook"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "price",
+      "expected_symbol": "META"
+    },
+    {
+      "id": "pipe_price_long_airbus",
+      "category": "nom long",
+      "text": "Donne-moi le prix de Airbus SE",
+      "llm_companies": [
+        "Airbus SE"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "price",
+      "expected_symbol": "AIR.PA"
+    },
+    {
+      "id": "pipe_price_ambiguous_orange",
+      "category": "nom ambigu",
+      "text": "prix de Orange",
+      "llm_companies": [
+        "Orange"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "price",
+      "expected_clarification": true,
+      "expected_candidates_contains": [
+        "ORA.PA",
+        "OPL.WA"
+      ]
+    },
+    {
+      "id": "pipe_price_collision_abb",
+      "category": "shortTicker collision",
+      "text": "prix de ABB",
+      "llm_companies": [
+        "ABB"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "price",
+      "expected_clarification": true,
+      "expected_candidates_contains": [
+        "ABB.AX",
+        "ABB.NS"
+      ]
+    },
+    {
+      "id": "pipe_stats_long_msft",
+      "category": "nom long",
+      "text": "Je veux les stats de Microsoft Corporation sur 1 an",
+      "llm_companies": [
+        "Microsoft Corporation"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "stats",
+      "expected_symbol": "MSFT",
+      "expected_period": "1y"
+    },
+    {
+      "id": "pipe_compare_airbus_boeing",
+      "category": "free text",
+      "text": "Airbus vs Boeing",
+      "llm_companies": [
+        "Airbus",
+        "Boeing"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "compare",
+      "expected_symbols": [
+        "AIR.PA",
+        "BA"
+      ],
+      "expected_period": "1y"
+    },
+    {
+      "id": "pipe_compare_missing_second_symbol",
+      "category": "free text",
+      "text": "compare Apple",
+      "llm_companies": [
+        "Apple"
+      ],
+      "llm_period": "1 an",
+      "expected_route": "tool",
+      "expected_intent": "compare",
+      "expected_clarification": true
+    }
+  ]
+}

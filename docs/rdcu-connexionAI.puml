@@ -1,0 +1,17 @@
+@startuml rdcu connexionAI
+skinparam style strictuml
+skinparam defaultfontname Verdana
+title RDCU connexionAI(email : String, password : String)
+Participant ":controllerConnexion" as cc
+Participant ":serviceLogIn" as sl
+
+
+->cc : connexionAI(email : String, password : String)
+activate cc
+cc -> sl: find_password_and_name(email : String)
+activate sl
+sl -->> cc: Hashed password and user name
+deactivate sl
+<<-- cc : Verification result 
+
+@enduml

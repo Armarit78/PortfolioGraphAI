@@ -1,0 +1,26 @@
+@startuml rdcu requestAI
+skinparam style strictuml
+skinparam defaultfontname Verdana
+title RDCU requestAI(prompt : String)
+Participant ":ControllerAi" as ca
+participant ":ServiceSaveChat" as sc
+Participant ":Ai" as ai
+Participant ":Optimizer" as o
+
+
+->ca : requestAI(prompt : String)
+activate ca
+ca ->sc: saveUserMessage(prompt : String)
+activate sc
+ca -> ai: request(prompt : String)
+activate ai
+ai -->> o: optimize(request : JSON)
+activate o
+o -->> ai : optimized datas
+deactivate o
+ai -->> ca: AI response
+deactivate ai
+ca -> sc: saveAiMessage(response : String)
+deactivate sc
+
+@enduml

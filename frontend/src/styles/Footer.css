@@ -1,0 +1,5 @@
+footer{
+    color:var(--text-color-white);
+    flex-shrink: 0;
+    height: auto;
+}

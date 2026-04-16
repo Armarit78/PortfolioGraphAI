@@ -1,0 +1,940 @@
+text,intent
+Cours de Apple,price
+Cours de Microsoft,price
+Cours de Nvidia,price
+Cours de Tesla,price
+Cours de TotalEnergies,price
+Cours de Air Liquide,price
+Prix de Apple,price
+Prix de Microsoft,price
+Valeur actuelle de Apple,price
+Apple ça cote combien ?,price
+Entre Apple et Microsoft sur 6 mois,compare
+Comparatif Apple Microsoft sur 6 mois,compare
+Donne-moi le prix de Apple,price
+Donne-moi le prix de Microsoft,price
+Quel est le prix de AAPL,price
+Quel est le cours de Tesla,price
+Donne-moi le dernier prix de Nvidia,price
+Combien vaut Apple aujourd'hui,price
+Quel est le cours de Microsoft,price
+Prix de TSLA,price
+Price of Apple stock,price
+What's the price of Nvidia,price
+Donne-moi le cours de Amazon,price
+Quel est le prix de Meta,price
+Combien vaut Microsoft en ce moment,price
+Cours de NVDA,price
+Price of Tesla,price
+Quote for MSFT,price
+How much is Apple stock,price
+Donne-moi le prix de LVMH,price
+Quel est le cours de Air Liquide,price
+Prix de BNP Paribas,price
+Donne-moi le prix de Google,price
+Quel est le prix de Amazon aujourd'hui,price
+Donne-moi le prix de Nvidia maintenant,price
+Quel est le cours de Meta aujourd'hui,price
+Combien vaut Tesla en ce moment,price
+Donne-moi le prix de GOOGL,price
+Quel est le cours de AMZN,price
+Combien vaut NVDA aujourd'hui,price
+Price of Microsoft,price
+Price of Amazon stock,price
+What is the price of Tesla,price
+Quote for Nvidia,price
+How much is Meta stock,price
+Donne-moi le prix de Hermès,price
+Quel est le cours de TotalEnergies,price
+Prix de Société Générale,price
+Cours de SAP,price
+Donne-moi le prix de ASML,price
+Combien vaut Tesla,price
+Apple ça vaut combien,price
+Microsoft aujourd'hui ça cote combien,price
+Nvidia aujourd'hui combien,price
+Amazon ça vaut quoi aujourd'hui,price
+Tesla combien aujourd'hui,price
+Meta combien ça vaut,price
+Google combien aujourd'hui,price
+Donne-moi le prix de Apple stp,price
+Je veux le prix de Microsoft,price
+Tu peux me donner le cours de Tesla ?,price
+Montre-moi le prix de Nvidia,price
+J’aimerais connaître le prix de Amazon,price
+Peux-tu me dire combien vaut Apple aujourd’hui ?,price
+Donne-moi le cours de Meta stp,price
+Je veux savoir combien cote Google,price
+Tu peux me sortir le prix de Tesla maintenant ?,price
+Dis-moi le prix de Microsoft aujourd’hui,price
+Apple ça vaut combien là ?,price
+Je veux le dernier prix de Nvidia,price
+Montre-moi combien vaut Amazon en ce moment,price
+Tu peux me dire le cours de AAPL ?,price
+J’aimerais le prix de MSFT,price
+Donne-moi le prix de GOOGL stp,price
+Je veux savoir le cours de NVDA,price
+Peux-tu me donner le prix de Tesla en bourse ?,price
+Montre-moi le cours de Meta aujourd’hui,price
+Dis-moi combien vaut Apple en bourse,price
+Donne-moi les stats de AAPL sur 1 an,stats
+Donne-moi les stats de Microsoft sur 1y,stats
+Statistiques de Tesla sur 6 mois,stats
+Donne-moi la volatilité de Apple sur 1 an,stats
+Quel est le rendement de Nvidia sur 1y,stats
+Stats de MSFT sur 6mo,stats
+Performance de AAPL sur 1 an,stats
+Sharpe ratio de Tesla sur 1y,stats
+Volatilité de Microsoft sur 6 mois,stats
+Stats de Amazon sur 1 an,stats
+Donne-moi les statistiques de Nvidia sur 1 an,stats
+Performance de Microsoft sur 1 an,stats
+Rendement annualisé de Tesla sur 6 mois,stats
+Volatilité de Amazon sur 1y,stats
+Stats de Meta sur 1y,stats
+Sharpe de AAPL sur 1 an,stats
+Donne-moi la performance de LVMH sur 1 an,stats
+Volatilité de Air Liquide sur 6 mois,stats
+Rendement de BNP Paribas sur 1 an,stats
+Stats de NVDA sur 6mo,stats
+Donne-moi les stats de Google sur 1 an,stats
+Statistiques de Amazon sur 1 an,stats
+Performance de Nvidia sur 1y,stats
+Volatilité de Tesla sur 1 an,stats
+Rendement de Meta sur 6 mois,stats
+Stats de GOOGL sur 1y,stats
+Sharpe ratio de Amazon sur 1 an,stats
+Performance de Microsoft sur 6mo,stats
+Volatilité de Apple sur 1y,stats
+Stats de Tesla sur 1 an,stats
+Donne-moi la performance de Hermès sur 1 an,stats
+Statistiques de TotalEnergies sur 6 mois,stats
+Volatilité de Société Générale sur 1 an,stats
+Rendement de SAP sur 1y,stats
+Stats de ASML sur 6mo,stats
+Sharpe de Google sur 1 an,stats
+Quel est le rendement annualisé de Amazon sur 1y,stats
+Volatilité de Nvidia sur 6 mois,stats
+Performance de Meta sur 1 an,stats
+Stats de TotalEnergies sur 1 an,stats
+Je veux les stats de Apple sur 1 an,stats
+Donne-moi les statistiques de Microsoft sur un an,stats
+J’aimerais la volatilité de Tesla sur 1 an,stats
+Peux-tu me sortir les stats de Nvidia sur 6 mois ?,stats
+Je veux voir la performance de Amazon sur 1 an,stats
+Montre-moi les stats de Meta stp,stats
+Tu peux me donner le rendement de Google sur 1 an ?,stats
+Je veux la volatilité de Apple sur 6 mois,stats
+Donne-moi les performances de Tesla sur un an,stats
+J’aimerais les stats de MSFT sur 1y,stats
+Peux-tu me dire le Sharpe ratio de Nvidia ?,stats
+Je veux les statistiques de Amazon sur 1y,stats
+Montre-moi la perf de Meta sur 1 an,stats
+Tu peux me sortir les stats de GOOGL sur 6 mois ?,stats
+Donne-moi le rendement annualisé de Tesla,stats
+Je veux la volatilité de Microsoft stp,stats
+J’aimerais les stats de Apple sur 1y,stats
+Peux-tu me montrer la performance de Nvidia sur 1 an ?,stats
+Je veux les indicateurs de Amazon sur 6 mois,stats
+Dis-moi les stats de Tesla sur 1 an,stats
+Compare AAPL et Microsoft sur 1y,compare
+Compare Tesla et Nvidia sur 1 an,compare
+Comparaison Apple vs Microsoft,compare
+Compare Amazon et Google sur 6 mois,compare
+AAPL vs MSFT sur 1y,compare
+Tesla versus Nvidia sur 1 an,compare
+Comparaison Microsoft et Nvidia sur 1y,compare
+Compare Apple et Tesla,compare
+Compare Google et Amazon,compare
+Compare Nvidia et AMD sur 1 an,compare
+Compare Microsoft et Apple sur 6 mois,compare
+Comparaison Tesla et Amazon sur 1 an,compare
+NVDA vs AMD sur 1 an,compare
+Compare LVMH et Hermès,compare
+Comparaison Air Liquide et TotalEnergies,compare
+Compare BNP Paribas et Société Générale,compare
+Apple versus Microsoft,compare
+Google vs Meta,compare
+Compare Amazon et Meta sur 1y,compare
+Compare Tesla et Microsoft,compare
+Compare Google et Amazon sur 1 an,compare
+Compare Nvidia et Tesla sur 1 an,compare
+Comparaison Meta vs Microsoft,compare
+Amazon vs Google sur 6 mois,compare
+GOOGL vs AMZN sur 1y,compare
+Nvidia versus Tesla sur 1 an,compare
+Compare Apple et Microsoft sur 1 an,compare
+Compare Meta et Google,compare
+Comparaison Amazon et Nvidia sur 1y,compare
+Tesla vs Meta sur 6 mois,compare
+Compare Hermès et LVMH,compare
+Comparaison SAP et ASML,compare
+Compare TotalEnergies et Air Liquide,compare
+BNP Paribas vs Société Générale,compare
+Compare Google et Meta sur 1 an,compare
+Compare Amazon et Apple,compare
+Comparaison Tesla et Nvidia sur 6 mois,compare
+Meta versus Microsoft sur 1y,compare
+Compare ASML et SAP sur 1 an,compare
+Google vs Amazon,compare
+Apple et Microsoft lequel performe le mieux,compare
+Tesla ou Nvidia sur un an,compare
+Entre Google et Amazon lequel est le plus rentable,compare
+Performance Apple Microsoft sur 6 mois,compare
+Comparaison Nvidia AMD sur un an,compare
+Microsoft ou Apple sur un an,compare
+Amazon ou Google qui est meilleur,compare
+Tesla Nvidia lequel est le plus performant,compare
+Compare Apple et Microsoft pour moi,compare
+Je veux comparer Tesla et Nvidia,compare
+Tu peux me faire une comparaison entre Amazon et Google ?,compare
+Montre-moi Apple vs Microsoft,compare
+J’aimerais comparer Tesla à Nvidia sur 1 an,compare
+Peux-tu comparer Meta et Google ?,compare
+Je veux voir Microsoft contre Apple,compare
+Fais-moi une comparaison entre Amazon et Meta,compare
+Tu peux me dire entre Tesla et Microsoft lequel est meilleur ?,compare
+Je veux comparer Nvidia et AMD sur 1 an,compare
+Montre-moi Google vs Amazon sur 6 mois,compare
+J’aimerais une comparaison Apple / Tesla,compare
+Peux-tu comparer LVMH et Hermès ?,compare
+Je veux savoir entre Apple et Microsoft lequel performe le mieux,compare
+Dis-moi qui est meilleur entre Tesla et Nvidia sur un an,compare
+Tu peux me faire Meta vs Microsoft ?,compare
+Je veux comparer Air Liquide et TotalEnergies,compare
+Montre-moi BNP Paribas contre Société Générale,compare
+J’aimerais comparer ASML et SAP,compare
+"Entre Amazon et Google, lequel est le plus performant ?",compare
+Je veux un portefeuille d'action Europe dans le secteur Santé avec une volatilité faible,screener
+Construis-moi un portefeuille d’actions Europe sans France dans le secteur santé,screener
+Je veux un portefeuille actions France et Allemagne,screener
+Fais un screener d’actions hors secteur énergie et pétrole,screener
+Je cherche des actions US dans la technologie et l’automobile,screener
+Screener actions Europe dans la santé,screener
+Trouve des actions avec dividende élevé en Europe,screener
+Portefeuille actions défensives Europe,screener
+Filtre actions US secteur technologie,screener
+Actions Europe avec faible volatilité,screener
+Je veux un portefeuille d'actions Europe hors énergie,screener
+Trouve des actions santé en Europe,screener
+Filtre actions européennes avec dividende élevé,screener
+Je cherche des actions monde hors France,screener
+Construis-moi un portefeuille d’actions Europe dans la technologie,screener
+Actions US avec faible bêta,screener
+Screener de valeurs bancaires européennes,screener
+Je veux des actions de santé hors USA,screener
+Trouve des actions industrielles en Europe,screener
+Je veux un portefeuille d’actions défensives avec rendement,screener
+Je veux un portefeuille d'actions Europe dans le luxe,screener
+Trouve des actions Europe dans l'industrie,screener
+Je cherche des actions américaines avec dividende élevé,screener
+Fais un screener d'actions Europe hors finance,screener
+Je veux des actions mondiales dans la santé,screener
+Construis-moi un portefeuille d'actions USA sans technologie,screener
+Trouve des actions européennes à faible volatilité,screener
+Je veux un screener d'actions avec rendement élevé,screener
+Filtre des actions de croissance en Europe,screener
+Je cherche des actions qualité avec beta faible,screener
+Portefeuille actions monde avec dividendes,screener
+Actions Europe hors pétrole et gaz,screener
+Trouve des actions défensives aux Etats-Unis,screener
+Je veux des actions bancaires en Europe,screener
+Screener d'actions industrielles hors France,screener
+Portefeuille actions santé avec rendement,screener
+Je cherche des actions Europe et USA dans la technologie,screener
+Trouve des actions avec faible beta et dividendes,screener
+Je veux un portefeuille d'actions internationales défensives,screener
+Filtre actions Europe secteur consommation,screener
+Je cherche des actions santé en Europe avec dividendes,screener
+Je veux des actions américaines à faible volatilité,screener
+Trouve des actions européennes dans la technologie,screener
+Filtre des actions monde avec rendement élevé,screener
+Je veux des actions européennes avec bêta inférieur à 1,screener
+Actions américaines dans l'industrie,screener
+Je veux des actions monde dans la santé,screener
+Filtre actions Europe hors énergie,screener
+Je veux des actions européennes dans la santé,screener
+Donne-moi un portefeuille d’actions Europe secteur santé,screener
+Je cherche des actions US dans la tech,screener
+Montre-moi des actions Europe avec faible volatilité,screener
+J’aimerais un screener d’actions avec dividendes élevés,screener
+Peux-tu me trouver des actions santé en Europe ?,screener
+Tu peux me sortir des actions américaines défensives ?,screener
+Je cherche des actions monde avec rendement élevé,screener
+Montre-moi des actions européennes dans le luxe,screener
+Je veux un screener d’actions industrielles en Europe,screener
+Donne-moi des actions bancaires européennes,screener
+Je veux des actions de croissance en Europe,screener
+Peux-tu filtrer des actions US hors technologie ?,screener
+Je cherche des actions santé avec dividendes,screener
+Montre-moi des actions à faible bêta,screener
+J’aimerais des actions monde dans la santé,screener
+Tu peux me trouver des actions Europe hors finance ?,screener
+Je veux des actions internationales peu volatiles,screener
+C'est quoi un ETF,chat
+Explique moi ce qu'est un ETF,chat
+Différence entre volatilité et risque,chat
+Explique moi la volatilité en finance,chat
+Qu'est-ce qu'un dividende,chat
+C'est quoi un Sharpe ratio,chat
+Explique moi la diversification,chat
+Qu'est-ce qu'un portefeuille défensif,chat
+Explain what an ETF is,chat
+What is volatility in finance,chat
+Explique-moi la différence entre action et obligation,chat
+Comment fonctionne un dividende,chat
+Qu'est-ce qu'une action de croissance,chat
+C'est quoi le rendement annualisé,chat
+Explique-moi ce qu'est la capitalisation boursière,chat
+What is a dividend,chat
+Explain the Sharpe ratio,chat
+Pourquoi diversifier un portefeuille,chat
+Qu'est-ce qu'un ETF capitalisant,chat
+Différence entre performance et rendement,chat
+C'est quoi une action,chat
+Qu'est-ce qu'une obligation,chat
+Explique-moi la différence entre ETF et action,chat
+C'est quoi le bêta en bourse,chat
+Qu'est-ce que le PER,chat
+Explique-moi ce qu'est un rendement,chat
+Comment comprendre le risque d'une action,chat
+C'est quoi la diversification sectorielle,chat
+Qu'est-ce qu'un ETF distribuant,chat
+Explique-moi la volatilité annualisée,chat
+What is a stock,chat
+What is a bond,chat
+Explain diversification in investing,chat
+What is annualized return,chat
+What is beta in finance,chat
+Pourquoi une action monte ou baisse,chat
+Comment lire une performance sur un an,chat
+Qu'est-ce qu'un portefeuille équilibré,chat
+Explique-moi le concept de drawdown,chat
+Quelle est la différence entre croissance et value,chat
+Apple ou Microsoft c'est mieux,chat
+Dois-je acheter Tesla,chat
+Est-ce que Nvidia est risqué,chat
+Tu préfères Apple ou Microsoft,chat
+Est-ce un bon moment pour acheter Amazon,chat
+Faut-il investir dans Tesla maintenant,chat
+Penses-tu que Nvidia va monter,chat
+Apple est-ce une bonne action,chat
+Microsoft est-ce un bon investissement,chat
+Amazon est-elle une bonne entreprise,chat
+C’est quoi un ETF exactement ?,chat
+Explique-moi ce qu’est la volatilité,chat
+Je veux comprendre ce qu’est un dividende,chat
+Peux-tu m’expliquer le Sharpe ratio ?,chat
+J’aimerais comprendre la diversification,chat
+Dis-moi simplement ce qu’est une action,chat
+Je veux comprendre le bêta en bourse,chat
+Tu peux m’expliquer ce qu’est le PER ?,chat
+J’aimerais savoir ce qu’est un rendement annualisé,chat
+Peux-tu m’expliquer la capitalisation boursière ?,chat
+Je veux comprendre la différence entre ETF et action,chat
+Explique-moi ce qu’est un portefeuille défensif,chat
+Dis-moi ce que veut dire drawdown,chat
+Je veux une explication simple du risque en bourse,chat
+Peux-tu m’expliquer ce qu’est un ETF distribuant ?,chat
+J’aimerais comprendre un ETF capitalisant,chat
+Explique-moi la différence entre croissance et value,chat
+Je veux comprendre comment lire une performance sur un an,chat
+Tu peux m’expliquer pourquoi une action monte ou baisse ?,chat
+Je veux ton avis sur Apple,chat
+Tu penses quoi de Microsoft ?,chat
+Est-ce que Tesla c’est une bonne action selon toi ?,chat
+J’aimerais savoir si Nvidia est risquée,chat
+Tu me conseilles Amazon ou pas ?,chat
+Je veux savoir si Apple est un bon investissement,chat
+Peux-tu me dire si Microsoft vaut le coup ?,chat
+J’hésite à acheter Tesla,chat
+Tu crois que Nvidia peut encore monter ?,chat
+Amazon c’est une bonne idée d’investissement ?,chat
+Tu peux me donner le cours de AAPL ?,price
+C'est quoi le prix de AAPL ?,price
+AAPL vaut combien en ce moment ?,price
+Je veux la valeur actuelle de AAPL,price
+Tu peux me donner le cours de GOOGL ?,price
+C'est quoi le prix de GOOGL ?,price
+GOOGL vaut combien en ce moment ?,price
+Je veux la valeur actuelle de GOOGL,price
+Tu peux me donner le cours de MSFT ?,price
+C'est quoi le prix de MSFT ?,price
+MSFT vaut combien en ce moment ?,price
+Je veux la valeur actuelle de MSFT,price
+Tu peux me donner le cours de NVDA ?,price
+C'est quoi le prix de NVDA ?,price
+NVDA vaut combien en ce moment ?,price
+Je veux la valeur actuelle de NVDA,price
+Tu peux me donner le cours de TSLA ?,price
+C'est quoi le prix de TSLA ?,price
+TSLA vaut combien en ce moment ?,price
+Je veux la valeur actuelle de TSLA,price
+Tu peux me donner le cours de ASML ?,price
+C'est quoi le prix de ASML ?,price
+ASML vaut combien en ce moment ?,price
+Je veux la valeur actuelle de ASML,price
+Tu peux me donner le cours de RMS.PA ?,price
+C'est quoi le prix de RMS.PA ?,price
+RMS.PA vaut combien en ce moment ?,price
+Je veux la valeur actuelle de RMS.PA,price
+Tu peux me donner le cours de MC.PA ?,price
+C'est quoi le prix de MC.PA ?,price
+MC.PA vaut combien en ce moment ?,price
+Je veux la valeur actuelle de MC.PA,price
+Tu peux me donner le cours de AIR.PA ?,price
+C'est quoi le prix de AIR.PA ?,price
+AIR.PA vaut combien en ce moment ?,price
+Je veux la valeur actuelle de AIR.PA,price
+Tu peux me donner le cours de BNP.PA ?,price
+C'est quoi le prix de BNP.PA ?,price
+BNP.PA vaut combien en ce moment ?,price
+Je veux la valeur actuelle de BNP.PA,price
+Tu peux me donner le cours de Apple ?,price
+C'est quoi le prix de Apple ?,price
+Apple vaut combien en ce moment ?,price
+Je veux la valeur actuelle de Apple,price
+Tu peux me donner le cours de Google ?,price
+C'est quoi le prix de Google ?,price
+Google vaut combien en ce moment ?,price
+Je veux la valeur actuelle de Google,price
+Tu peux me donner le cours de Microsoft ?,price
+C'est quoi le prix de Microsoft ?,price
+Microsoft vaut combien en ce moment ?,price
+Je veux la valeur actuelle de Microsoft,price
+Tu peux me donner le cours de Nvidia ?,price
+C'est quoi le prix de Nvidia ?,price
+Nvidia vaut combien en ce moment ?,price
+Je veux la valeur actuelle de Nvidia,price
+C'est quoi le prix de Tesla ?,price
+Tesla vaut combien en ce moment ?,price
+Je veux la valeur actuelle de Tesla,price
+Tu peux me donner le cours de Hermès ?,price
+C'est quoi le prix de Hermès ?,price
+Hermès vaut combien en ce moment ?,price
+Je veux la valeur actuelle de Hermès,price
+Tu peux me donner le cours de LVMH ?,price
+C'est quoi le prix de LVMH ?,price
+LVMH vaut combien en ce moment ?,price
+Je veux la valeur actuelle de LVMH,price
+Tu peux me donner le cours de Air Liquide ?,price
+C'est quoi le prix de Air Liquide ?,price
+Air Liquide vaut combien en ce moment ?,price
+Je veux la valeur actuelle de Air Liquide,price
+Tu peux me donner le cours de BNP Paribas ?,price
+C'est quoi le prix de BNP Paribas ?,price
+BNP Paribas vaut combien en ce moment ?,price
+Je veux la valeur actuelle de BNP Paribas,price
+Je veux les indicateurs de AAPL sur 1 mois,stats
+Affiche les statistiques de AAPL sur 1 mois,stats
+Je veux les indicateurs de AAPL sur 3 mois,stats
+Affiche les statistiques de AAPL sur 3 mois,stats
+Je veux les indicateurs de AAPL sur 6 mois,stats
+Affiche les statistiques de AAPL sur 6 mois,stats
+Je veux les indicateurs de AAPL sur 1 an,stats
+Affiche les statistiques de AAPL sur 1 an,stats
+Je veux les indicateurs de GOOGL sur 1 mois,stats
+Affiche les statistiques de GOOGL sur 1 mois,stats
+Je veux les indicateurs de GOOGL sur 3 mois,stats
+Affiche les statistiques de GOOGL sur 3 mois,stats
+Je veux les indicateurs de GOOGL sur 6 mois,stats
+Affiche les statistiques de GOOGL sur 6 mois,stats
+Je veux les indicateurs de GOOGL sur 1 an,stats
+Affiche les statistiques de GOOGL sur 1 an,stats
+Je veux les indicateurs de MSFT sur 1 mois,stats
+Affiche les statistiques de MSFT sur 1 mois,stats
+Je veux les indicateurs de MSFT sur 3 mois,stats
+Affiche les statistiques de MSFT sur 3 mois,stats
+Je veux les indicateurs de MSFT sur 6 mois,stats
+Affiche les statistiques de MSFT sur 6 mois,stats
+Je veux les indicateurs de MSFT sur 1 an,stats
+Affiche les statistiques de MSFT sur 1 an,stats
+Je veux les indicateurs de NVDA sur 1 mois,stats
+Affiche les statistiques de NVDA sur 1 mois,stats
+Je veux les indicateurs de NVDA sur 3 mois,stats
+Affiche les statistiques de NVDA sur 3 mois,stats
+Je veux les indicateurs de NVDA sur 6 mois,stats
+Affiche les statistiques de NVDA sur 6 mois,stats
+Je veux les indicateurs de NVDA sur 1 an,stats
+Affiche les statistiques de NVDA sur 1 an,stats
+Je veux les indicateurs de TSLA sur 1 mois,stats
+Affiche les statistiques de TSLA sur 1 mois,stats
+Je veux les indicateurs de TSLA sur 3 mois,stats
+Affiche les statistiques de TSLA sur 3 mois,stats
+Je veux les indicateurs de TSLA sur 6 mois,stats
+Affiche les statistiques de TSLA sur 6 mois,stats
+Je veux les indicateurs de TSLA sur 1 an,stats
+Affiche les statistiques de TSLA sur 1 an,stats
+Je veux les indicateurs de ASML sur 1 mois,stats
+Affiche les statistiques de ASML sur 1 mois,stats
+Je veux les indicateurs de ASML sur 3 mois,stats
+Affiche les statistiques de ASML sur 3 mois,stats
+Je veux les indicateurs de ASML sur 6 mois,stats
+Affiche les statistiques de ASML sur 6 mois,stats
+Je veux les indicateurs de ASML sur 1 an,stats
+Affiche les statistiques de ASML sur 1 an,stats
+Je veux les indicateurs de RMS.PA sur 1 mois,stats
+Affiche les statistiques de RMS.PA sur 1 mois,stats
+Je veux les indicateurs de RMS.PA sur 3 mois,stats
+Affiche les statistiques de RMS.PA sur 3 mois,stats
+Je veux les indicateurs de RMS.PA sur 6 mois,stats
+Affiche les statistiques de RMS.PA sur 6 mois,stats
+Je veux les indicateurs de RMS.PA sur 1 an,stats
+Affiche les statistiques de RMS.PA sur 1 an,stats
+Je veux les indicateurs de MC.PA sur 1 mois,stats
+Affiche les statistiques de MC.PA sur 1 mois,stats
+Je veux les indicateurs de MC.PA sur 3 mois,stats
+Affiche les statistiques de MC.PA sur 3 mois,stats
+Je veux les indicateurs de MC.PA sur 6 mois,stats
+Affiche les statistiques de MC.PA sur 6 mois,stats
+Je veux les indicateurs de MC.PA sur 1 an,stats
+Affiche les statistiques de MC.PA sur 1 an,stats
+Je veux les indicateurs de Apple sur 1 mois,stats
+Affiche les statistiques de Apple sur 1 mois,stats
+Je veux les indicateurs de Apple sur 3 mois,stats
+Affiche les statistiques de Apple sur 3 mois,stats
+Je veux les indicateurs de Apple sur 6 mois,stats
+Affiche les statistiques de Apple sur 6 mois,stats
+Je veux les indicateurs de Apple sur 1 an,stats
+Affiche les statistiques de Apple sur 1 an,stats
+Je veux les indicateurs de Microsoft sur 1 mois,stats
+Affiche les statistiques de Microsoft sur 1 mois,stats
+Je veux les indicateurs de Microsoft sur 3 mois,stats
+Affiche les statistiques de Microsoft sur 3 mois,stats
+Je veux les indicateurs de Microsoft sur 6 mois,stats
+Affiche les statistiques de Microsoft sur 6 mois,stats
+Je veux les indicateurs de Microsoft sur 1 an,stats
+Affiche les statistiques de Microsoft sur 1 an,stats
+Je veux les indicateurs de Nvidia sur 1 mois,stats
+Affiche les statistiques de Nvidia sur 1 mois,stats
+Je veux les indicateurs de Nvidia sur 3 mois,stats
+Affiche les statistiques de Nvidia sur 3 mois,stats
+Je veux les indicateurs de Nvidia sur 6 mois,stats
+Affiche les statistiques de Nvidia sur 6 mois,stats
+Je veux les indicateurs de Nvidia sur 1 an,stats
+Affiche les statistiques de Nvidia sur 1 an,stats
+Je veux les indicateurs de Tesla sur 1 mois,stats
+Affiche les statistiques de Tesla sur 1 mois,stats
+Je veux les indicateurs de Tesla sur 3 mois,stats
+Affiche les statistiques de Tesla sur 3 mois,stats
+Je veux les indicateurs de Tesla sur 6 mois,stats
+Affiche les statistiques de Tesla sur 6 mois,stats
+Je veux les indicateurs de Tesla sur 1 an,stats
+Affiche les statistiques de Tesla sur 1 an,stats
+Je veux les indicateurs de Hermès sur 1 mois,stats
+Affiche les statistiques de Hermès sur 1 mois,stats
+Je veux les indicateurs de Hermès sur 3 mois,stats
+Affiche les statistiques de Hermès sur 3 mois,stats
+Je veux les indicateurs de Hermès sur 6 mois,stats
+Affiche les statistiques de Hermès sur 6 mois,stats
+Je veux les indicateurs de Hermès sur 1 an,stats
+Affiche les statistiques de Hermès sur 1 an,stats
+Je veux les indicateurs de LVMH sur 1 mois,stats
+Affiche les statistiques de LVMH sur 1 mois,stats
+Je veux les indicateurs de LVMH sur 3 mois,stats
+Affiche les statistiques de LVMH sur 3 mois,stats
+Je veux les indicateurs de LVMH sur 6 mois,stats
+Affiche les statistiques de LVMH sur 6 mois,stats
+Je veux les indicateurs de LVMH sur 1 an,stats
+Affiche les statistiques de LVMH sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de AAPL ?,stats
+Donne-moi le Sharpe de AAPL,stats
+Je veux la volatilité de AAPL sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de GOOGL ?,stats
+Donne-moi le Sharpe de GOOGL,stats
+Je veux la volatilité de GOOGL sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de MSFT ?,stats
+Donne-moi le Sharpe de MSFT,stats
+Je veux la volatilité de MSFT sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de NVDA ?,stats
+Donne-moi le Sharpe de NVDA,stats
+Je veux la volatilité de NVDA sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de TSLA ?,stats
+Donne-moi le Sharpe de TSLA,stats
+Je veux la volatilité de TSLA sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de ASML ?,stats
+Donne-moi le Sharpe de ASML,stats
+Je veux la volatilité de ASML sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de RMS.PA ?,stats
+Donne-moi le Sharpe de RMS.PA,stats
+Je veux la volatilité de RMS.PA sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de MC.PA ?,stats
+Donne-moi le Sharpe de MC.PA,stats
+Je veux la volatilité de MC.PA sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de Apple ?,stats
+Donne-moi le Sharpe de Apple,stats
+Je veux la volatilité de Apple sur 1 an,stats
+Peux-tu me dire le Sharpe ratio de Microsoft ?,stats
+Donne-moi le Sharpe de Microsoft,stats
+Je veux la volatilité de Microsoft sur 1 an,stats
+Compare Apple et Microsoft sur 6 mois,compare
+"Entre Apple et Microsoft, lequel performe le mieux sur 6 mois ?",compare
+"Entre Apple et Microsoft, lequel performe le mieux sur 1 an ?",compare
+Compare Apple et Microsoft sur 3 ans,compare
+"Entre Apple et Microsoft, lequel performe le mieux sur 3 ans ?",compare
+Compare Tesla et Nvidia sur 6 mois,compare
+"Entre Tesla et Nvidia, lequel performe le mieux sur 6 mois ?",compare
+"Entre Tesla et Nvidia, lequel performe le mieux sur 1 an ?",compare
+Compare Tesla et Nvidia sur 3 ans,compare
+"Entre Tesla et Nvidia, lequel performe le mieux sur 3 ans ?",compare
+Compare Hermès et LVMH sur 6 mois,compare
+"Entre Hermès et LVMH, lequel performe le mieux sur 6 mois ?",compare
+Compare Hermès et LVMH sur 1 an,compare
+"Entre Hermès et LVMH, lequel performe le mieux sur 1 an ?",compare
+Compare Hermès et LVMH sur 3 ans,compare
+"Entre Hermès et LVMH, lequel performe le mieux sur 3 ans ?",compare
+Compare ASML et SAP sur 6 mois,compare
+"Entre ASML et SAP, lequel performe le mieux sur 6 mois ?",compare
+"Entre ASML et SAP, lequel performe le mieux sur 1 an ?",compare
+Compare ASML et SAP sur 3 ans,compare
+"Entre ASML et SAP, lequel performe le mieux sur 3 ans ?",compare
+Compare AAPL et MSFT sur 6 mois,compare
+"Entre AAPL et MSFT, lequel performe le mieux sur 6 mois ?",compare
+Compare AAPL et MSFT sur 1 an,compare
+"Entre AAPL et MSFT, lequel performe le mieux sur 1 an ?",compare
+Compare AAPL et MSFT sur 3 ans,compare
+"Entre AAPL et MSFT, lequel performe le mieux sur 3 ans ?",compare
+Compare GOOGL et MSFT sur 6 mois,compare
+"Entre GOOGL et MSFT, lequel performe le mieux sur 6 mois ?",compare
+Compare GOOGL et MSFT sur 1 an,compare
+"Entre GOOGL et MSFT, lequel performe le mieux sur 1 an ?",compare
+Compare GOOGL et MSFT sur 3 ans,compare
+"Entre GOOGL et MSFT, lequel performe le mieux sur 3 ans ?",compare
+Compare RMS.PA et MC.PA sur 6 mois,compare
+"Entre RMS.PA et MC.PA, lequel performe le mieux sur 6 mois ?",compare
+Compare RMS.PA et MC.PA sur 1 an,compare
+"Entre RMS.PA et MC.PA, lequel performe le mieux sur 1 an ?",compare
+Compare RMS.PA et MC.PA sur 3 ans,compare
+"Entre RMS.PA et MC.PA, lequel performe le mieux sur 3 ans ?",compare
+Compare Air Liquide et TotalEnergies sur 6 mois,compare
+"Entre Air Liquide et TotalEnergies, lequel performe le mieux sur 6 mois ?",compare
+Compare Air Liquide et TotalEnergies sur 1 an,compare
+"Entre Air Liquide et TotalEnergies, lequel performe le mieux sur 1 an ?",compare
+Compare Air Liquide et TotalEnergies sur 3 ans,compare
+"Entre Air Liquide et TotalEnergies, lequel performe le mieux sur 3 ans ?",compare
+Compare BNP Paribas et Société Générale sur 6 mois,compare
+"Entre BNP Paribas et Société Générale, lequel performe le mieux sur 6 mois ?",compare
+Compare BNP Paribas et Société Générale sur 1 an,compare
+"Entre BNP Paribas et Société Générale, lequel performe le mieux sur 1 an ?",compare
+Compare BNP Paribas et Société Générale sur 3 ans,compare
+"Entre BNP Paribas et Société Générale, lequel performe le mieux sur 3 ans ?",compare
+"Entre Amazon et Google, lequel performe le mieux sur 6 mois ?",compare
+Compare Amazon et Google sur 1 an,compare
+"Entre Amazon et Google, lequel performe le mieux sur 1 an ?",compare
+Compare Amazon et Google sur 3 ans,compare
+"Entre Amazon et Google, lequel performe le mieux sur 3 ans ?",compare
+Montre-moi des actions américaines à faible volatilité,screener
+Montre-moi des actions de santé avec dividendes,screener
+Montre-moi des actions avec rendement et faible volatilité,screener
+Je veux des ETF US avec bon rating et faible risque,screener
+Trouve-moi des actions défensives avec faible bêta,screener
+Je cherche des actions européennes de santé avec dividendes,screener
+Filtre des actions US à faible volatilité et bon momentum,screener
+Je veux des valeurs qualité avec faible risque,screener
+Montre-moi des actions value avec bon rendement,screener
+Je cherche des ETF monde à faible volatilité,screener
+Trouve des actions tech rentables avec bon rating,screener
+Je veux des actions industrielles avec bêta faible,screener
+Montre-moi des actions de consommation défensive,screener
+Je cherche des actions US avec bon Sharpe et faible drawdown,screener
+Trouve des ETF obligataires avec faible risque,screener
+Je veux des actions européennes avec rendement élevé,screener
+Montre-moi des actions santé faible volatilité Europe,screener
+Je cherche un screener pour des actions momentum US,screener
+Donne-moi des small caps avec bon potentiel et risque modéré,screener
+Montre-moi des actions européennes avec faible volatilité,screener
+Montre-moi des actions européennes avec faible bêta,screener
+Montre-moi des actions européennes avec bon rating,screener
+Montre-moi des actions européennes avec bon rendement,screener
+Montre-moi des actions européennes avec faible risque,screener
+Montre-moi des actions européennes avec bon Sharpe,screener
+Montre-moi des actions américaines avec faible volatilité,screener
+Montre-moi des actions américaines avec faible bêta,screener
+Montre-moi des actions américaines avec bon rating,screener
+Montre-moi des actions américaines avec bon rendement,screener
+Montre-moi des actions américaines avec faible risque,screener
+Montre-moi des actions américaines avec bon Sharpe,screener
+Montre-moi des ETF US avec faible volatilité,screener
+Montre-moi des ETF US avec faible bêta,screener
+Montre-moi des ETF US avec bon rating,screener
+Montre-moi des ETF US avec bon rendement,screener
+Montre-moi des ETF US avec faible risque,screener
+Montre-moi des ETF US avec bon Sharpe,screener
+Montre-moi des ETF Europe avec faible volatilité,screener
+Montre-moi des ETF Europe avec faible bêta,screener
+Montre-moi des ETF Europe avec bon rating,screener
+Montre-moi des ETF Europe avec bon rendement,screener
+Montre-moi des ETF Europe avec faible risque,screener
+Montre-moi des ETF Europe avec bon Sharpe,screener
+Montre-moi des actions de santé avec faible volatilité,screener
+Montre-moi des actions de santé avec faible bêta,screener
+Montre-moi des actions de santé avec bon rating,screener
+Montre-moi des actions de santé avec bon rendement,screener
+Montre-moi des actions de santé avec faible risque,screener
+Montre-moi des actions de santé avec bon Sharpe,screener
+Montre-moi des actions tech avec faible volatilité,screener
+Montre-moi des actions tech avec faible bêta,screener
+Montre-moi des actions tech avec bon rating,screener
+Montre-moi des actions tech avec bon rendement,screener
+Montre-moi des actions tech avec faible risque,screener
+Montre-moi des actions tech avec bon Sharpe,screener
+Montre-moi des actions industrielles avec faible volatilité,screener
+Montre-moi des actions industrielles avec faible bêta,screener
+Montre-moi des actions industrielles avec bon rating,screener
+Montre-moi des actions industrielles avec bon rendement,screener
+Montre-moi des actions industrielles avec faible risque,screener
+Montre-moi des actions industrielles avec bon Sharpe,screener
+Montre-moi des actions value avec faible volatilité,screener
+Montre-moi des actions value avec faible bêta,screener
+Montre-moi des actions value avec bon rating,screener
+Montre-moi des actions value avec faible risque,screener
+Montre-moi des actions value avec bon Sharpe,screener
+Montre-moi des actions dividende avec faible volatilité,screener
+Montre-moi des actions dividende avec faible bêta,screener
+Montre-moi des actions dividende avec bon rating,screener
+Montre-moi des actions dividende avec bon rendement,screener
+Montre-moi des actions dividende avec faible risque,screener
+Montre-moi des actions dividende avec bon Sharpe,screener
+Montre-moi des actions quality avec faible volatilité,screener
+Montre-moi des actions quality avec faible bêta,screener
+Montre-moi des actions quality avec bon rating,screener
+Montre-moi des actions quality avec bon rendement,screener
+Montre-moi des actions quality avec faible risque,screener
+Montre-moi des actions quality avec bon Sharpe,screener
+Explique-moi ce qu'est un portefeuille équilibré,chat
+Comment fonctionne un screener d’actions ?,chat
+Peux-tu m’expliquer comment comparer deux actions sans regarder seulement le prix ?,chat
+Quelle est la différence entre rendement et volatilité ?,chat
+C'est quoi le ratio de Sharpe ?,chat
+Comment lire le bêta d'une action ?,chat
+Qu'est-ce qu'un portefeuille diversifié ?,chat
+À quoi sert un screener boursier ?,chat
+Comment analyser une action sans ticker ?,chat
+Quelle différence entre ETF et action ?,chat
+Comment interpréter des statistiques de portefeuille ?,chat
+Peux-tu expliquer ce qu'est un portefeuille défensif ?,chat
+J'aimerais comprendre ce qu'est un portefeuille défensif,chat
+C'est quoi un portefeuille défensif ?,chat
+Comment définir un portefeuille défensif ?,chat
+Tu peux m'expliquer la notion de portefeuille défensif ?,chat
+Peux-tu expliquer ce qu'est un portefeuille équilibré ?,chat
+J'aimerais comprendre ce qu'est un portefeuille équilibré,chat
+C'est quoi un portefeuille équilibré ?,chat
+Comment définir un portefeuille équilibré ?,chat
+Tu peux m'expliquer la notion de portefeuille équilibré ?,chat
+Peux-tu expliquer ce qu'est un portefeuille offensif ?,chat
+J'aimerais comprendre ce qu'est un portefeuille offensif,chat
+C'est quoi un portefeuille offensif ?,chat
+Comment définir un portefeuille offensif ?,chat
+Tu peux m'expliquer la notion de portefeuille offensif ?,chat
+Peux-tu expliquer ce qu'est un screener d’actions ?,chat
+J'aimerais comprendre ce qu'est un screener d’actions,chat
+C'est quoi un screener d’actions ?,chat
+Comment définir un screener d’actions ?,chat
+Tu peux m'expliquer la notion de screener d’actions ?,chat
+Peux-tu expliquer ce qu'est un ratio de Sharpe ?,chat
+J'aimerais comprendre ce qu'est un ratio de Sharpe,chat
+C'est quoi un ratio de Sharpe ?,chat
+Comment définir un ratio de Sharpe ?,chat
+Tu peux m'expliquer la notion de ratio de Sharpe ?,chat
+Peux-tu expliquer ce qu'est un bêta ?,chat
+J'aimerais comprendre ce qu'est un bêta,chat
+C'est quoi un bêta ?,chat
+Comment définir un bêta ?,chat
+Tu peux m'expliquer la notion de bêta ?,chat
+Peux-tu expliquer ce qu'est un volatilité ?,chat
+J'aimerais comprendre ce qu'est un volatilité,chat
+C'est quoi un volatilité ?,chat
+Comment définir un volatilité ?,chat
+Tu peux m'expliquer la notion de volatilité ?,chat
+Peux-tu expliquer ce qu'est un drawdown ?,chat
+J'aimerais comprendre ce qu'est un drawdown,chat
+C'est quoi un drawdown ?,chat
+Comment définir un drawdown ?,chat
+Tu peux m'expliquer la notion de drawdown ?,chat
+Peux-tu expliquer ce qu'est un diversification ?,chat
+J'aimerais comprendre ce qu'est un diversification,chat
+C'est quoi un diversification ?,chat
+Comment définir un diversification ?,chat
+Tu peux m'expliquer la notion de diversification ?,chat
+Peux-tu expliquer ce qu'est un comparaison d'actions ?,chat
+J'aimerais comprendre ce qu'est un comparaison d'actions,chat
+C'est quoi un comparaison d'actions ?,chat
+Comment définir un comparaison d'actions ?,chat
+Tu peux m'expliquer la notion de comparaison d'actions ?,chat
+Donne-moi le Sharpe ratio de Microsoft,stats
+Quel est le ratio de Sharpe de Nvidia ?,stats
+Je veux la volatilité de Tesla sur 6 mois,stats
+Je veux les stats de TotalEnergies sur 1 an,stats
+Donne-moi les indicateurs de Air Liquide sur 6 mois,stats
+Quel est le cours de TotalEnergies ?,price
+Quel est le cours de Air Liquide ?,price
+TotalEnergies vaut combien en bourse ?,price
+Air Liquide ça cote combien ?,price
+Donne-moi le prix actuel de Microsoft,price
+Combien vaut Nvidia en ce moment ?,price
+Compare Microsoft et Nvidia sur 1 an,compare
+AAPL ou MSFT sur 6 mois ?,compare
+Lequel performe mieux entre Apple et Microsoft ?,compare
+Compare TotalEnergies et Shell sur 1 an,compare
+Microsoft est-elle intéressante à long terme ?,chat
+Tu penses quoi de Nvidia pour investir ?,chat
+Est-ce que TotalEnergies est une bonne action ?,chat
+Air Liquide vaut le coup pour du long terme ?,chat
+Donne-moi le Sharpe ratio de GOOGL,stats
+Quel est le ratio de Sharpe de GOOGL ?,stats
+Je veux le Sharpe ratio de Microsoft,stats
+Peux-tu me donner le Sharpe ratio de Nvidia ?,stats
+Quel est le Sharpe ratio de Tesla sur 1 an ?,stats
+Montre-moi le Sharpe ratio de Apple sur 6 mois,stats
+Affiche les indicateurs de Tesla sur 6 mois,stats
+Montre-moi les statistiques de GOOGL sur 6 mois,stats
+Je veux les statistiques de Microsoft sur 1 an,stats
+Donne-moi les stats de Nvidia sur 1 an,stats
+Quels sont les indicateurs de Apple sur 6 mois ?,stats
+Je veux les métriques de Tesla sur 1 an,stats
+Affiche les métriques de Nvidia sur 6 mois,stats
+Donne-moi la performance de Microsoft sur 1 an,stats
+Je veux la performance de Nvidia sur 1y,stats
+Performance de GOOGL sur 6 mois,stats
+Performance de Tesla sur 1 an,stats
+Quel est le rendement de Microsoft sur 1 an ?,stats
+Montre-moi le rendement de Nvidia sur 6 mois,stats
+Affiche la volatilité de Nvidia sur 1 an,stats
+Quel est le bêta de Microsoft ?,stats
+Donne-moi le bêta de Tesla sur 1 an,stats
+Je veux le drawdown de Nvidia sur 5 ans,stats
+Montre-moi le drawdown de Microsoft sur 1 an,stats
+Quel est le ratio de Sortino de Apple ?,stats
+Affiche les indicateurs de Air Liquide sur 6 mois,stats
+Montre-moi les statistiques de ASML sur 1 an,stats
+Tesla ça cote combien en ce moment ?,price
+Hermès vaut combien en bourse ?,price
+Combien vaut TotalEnergies en ce moment ?,price
+Air Liquide vaut combien aujourd'hui ?,price
+Donne-moi la valeur actuelle de Microsoft,price
+Je veux le cours actuel de Nvidia,price
+Quel est le dernier cours de Tesla ?,price
+Montre-moi le prix actuel de Apple,price
+Combien cote GOOGL aujourd'hui ?,price
+Quel est le cours de Hermès ?,price
+Prix actuel de ASML,price
+Valeur actuelle de TotalEnergies,price
+Valeur actuelle de Air Liquide,price
+Je veux le prix de Microsoft maintenant,price
+Nvidia vaut combien actuellement ?,price
+"Hermès ou LVMH, lequel est le plus performant sur 1 an ?",compare
+Compare Microsoft et Tesla sur 6 mois,compare
+Compare ASML et Nvidia sur 1 an,compare
+AAPL vs MSFT sur 6 mois,compare
+Microsoft ou Nvidia sur 1 an ?,compare
+"Entre Tesla et Apple, qui a le mieux performé sur 1 an ?",compare
+Qui a le meilleur rendement entre Hermès et LVMH sur 1 an ?,compare
+Compare TotalEnergies et Air Liquide sur 1 an,compare
+GOOGL ou Microsoft sur 6 mois ?,compare
+Compare la performance de Tesla et Nvidia sur 1 an,compare
+ASML vs Nvidia sur 6 mois,compare
+"Apple ou Microsoft, lequel est le plus performant sur 6 mois ?",compare
+Compare Hermès et ASML sur 1 an,compare
+"Entre AAPL et MSFT, lequel a le mieux performé ?",compare
+Compare Microsoft et GOOGL sur 1 an,compare
+Trouve-moi des actions à faible bêta,screener
+Je cherche des actions américaines peu volatiles,screener
+Montre-moi des valeurs santé avec dividendes,screener
+Je veux des actions avec bon rendement et faible risque,screener
+Trouve-moi des ETF américains à faible risque,screener
+Montre-moi des actions défensives avec faible volatilité,screener
+Je cherche des actions européennes avec dividendes,screener
+Trouve-moi des actions à bon Sharpe ratio,screener
+Je veux des actions peu risquées avec bon rendement,screener
+Trouve-moi des ETF US défensifs,screener
+Je veux des actions de santé à dividendes,screener
+Montre-moi des actions low volatility,screener
+Trouve-moi des actions à faible drawdown,screener
+Je cherche des actions value avec faible volatilité,screener
+Comment fonctionne un screener d'actions ?,chat
+Peux-tu m'expliquer comment comparer deux actions sans regarder seulement le prix ?,chat
+Est-ce que Microsoft vaut le coup sur le long terme ?,chat
+Tu penses quoi de Microsoft pour du long terme ?,chat
+Est-ce que Nvidia est une bonne action à garder ?,chat
+Hermès est-elle une bonne action à long terme ?,chat
+Comment savoir si une action vaut le coup ?,chat
+Qu'est-ce qu'un portefeuille défensif ?,chat
+Explique-moi comment comparer deux actions,chat
+Quels critères regarder pour comparer deux actions ?,chat
+Peux-tu m'expliquer ce qu'est un screener d'actions ?,chat
+Est-ce risqué d'investir dans Tesla maintenant ?,chat
+Tu penses quoi de ASML pour investir ?,chat
+Comment analyser une action sans se limiter au prix ?,chat
+Je veux un portefeuille d'actions avec Airbus et LVMH en Europe,screener
+Construis un portefeuille similaire a Apple et Microsoft aux Etats-Unis,screener
+Portefeuille inspire de Nvidia et AMD dans les semi-conducteurs,screener
+Je veux investir dans un univers proche de Tesla et Google aux USA,screener
+Trouve des actions similaires a Airbus dans l'aeronautique europeenne,screener
+Je cherche des entreprises comme LVMH dans le luxe europeen,screener
+Actions comparables a ASML dans les semi-conducteurs europeens,screener
+Peux-tu me proposer des actions comme Airbus avec faible volatilite,screener
+Donne-moi des valeurs similaires a LVMH avec croissance elevee,screener
+Je cherche des actions dans le meme style que Nvidia aux Etats-Unis,screener
+Trouve des actions tech US avec dividende eleve,screener
+Je cherche des actions Europe avec faible volatilite,screener
+Portefeuille sans energie en Europe,screener
+Actions tech avec croissance elevee aux USA,screener
+Filtre des actions sante monde hors USA,screener
+Screener actions industrielles Europe avec rendement eleve,screener
+Univers d'actions defensives en Europe hors banques,screener
+Je veux un portefeuille d'actions luxe Europe avec faible beta,screener
+Cherche des actions cloud US avec croissance elevee,screener
+Trouve des valeurs industrielles Europe sans energie,screener
+Actions japonaises automobile avec faible volatilite,screener
+Portefeuille actions monde avec dividende eleve hors tabac,screener
+Donne-moi des actions sante US sans biotech,screener
+Je veux des entreprises similaires a Hermes dans le luxe europeen,screener
+Univers proche de Microsoft dans le cloud US,screener
+Portefeuille inspire de LVMH et Hermes dans le luxe europeen,screener
+Peux-tu filtrer des actions IA US avec forte croissance,screener
+Trouve des actions comparables a SAP dans les logiciels europeens,screener
+Je cherche des actions defense Europe avec rendement eleve,screener
+Actions monde qualite avec faible drawdown,screener
+Portefeuille d'actions semi-conducteurs Asie hors Chine,screener
+Trouve des actions value Europe avec faible beta,screener
+Je veux des actions bancaires europeennes avec dividende eleve,screener
+Donne-moi un univers d'actions sante en Europe sans pharma,screener
+Actions americaines cybersecurite avec croissance elevee,screener
+Construis un portefeuille proche d'Airbus et Safran dans l'aeronautique Europe,screener
+Je cherche des actions,chat
+Trouve des actions,chat
+Donne-moi des actions,chat
+Actions a acheter,chat
+Je veux investir,chat
+Tu me proposes quoi en actions ?,chat
+J'aimerais investir,chat
+Montre-moi des opportunites,chat
+Je veux des actions interessantes,chat
+Quelles actions acheter ?,chat
+Je cherche un bon investissement,chat
+Propose-moi des valeurs,chat
+Des actions pour investir,chat
+Tu as des actions a me conseiller ?,chat
+Je veux placer mon argent,chat
+Je veux investir en bourse,chat
+Trouve-moi un investissement,chat
+Quoi acheter en bourse ?,chat
+Airbus ou Boeing sur 1 an,compare
+Entre Apple et Tesla lequel est le plus performant ?,compare
+LVMH vs Hermes,compare
+Nvidia ou AMD lequel est le meilleur investissement ?,compare
+Compare Schneider Electric et Legrand,compare
+Compare Airbus et Safran sur 6 mois,compare
+Entre ASML et TSMC sur 1 an,compare
+Microsoft ou Google lequel est le moins volatil ?,compare
+Compare Sanofi et Novo Nordisk,compare
+Hermes contre LVMH sur 1 an,compare
+Compare BNP Paribas et Santander,compare
+Entre TotalEnergies et Shell lequel a le meilleur rendement ?,compare
+Air Liquide vs Linde,compare
+Compare Dassault Systemes et SAP sur 6 mois,compare
+Boeing versus Airbus,compare
+Entre Nvidia et Broadcom lequel performe le mieux ?,compare
+Compare Meta et Netflix sur 1 an,compare
+AMD vs Intel sur 6 mois,compare

@@ -1,0 +1,10 @@
+@startuml DSS-chat-history
+title Get chat history
+actor c as ":Client"
+skinparam style strictuml
+participant ":Système" as Sys
+
+c -> Sys : getChatAi(username : String, chat_name : String)
+Sys -->> c : Affichage de la conversation
+
+@enduml

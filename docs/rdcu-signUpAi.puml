@@ -1,0 +1,11 @@
+@startuml rdcu signUpAi
+skinparam style strictuml
+skinparam defaultfontname Verdana
+title RDCU signUpAi(username : String, email : String, password : String, confirmPassword : String)
+Participant ":controllerConnexion" as cc
+Participant ":serviceSignUp" as ss
+
+-> cc : signUpAi(username : String, email : String, password : String, confirmPassword : String)
+cc -> ss : create_user(username : String, email : String, password : String)
+
+@enduml

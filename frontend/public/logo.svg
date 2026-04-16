@@ -1,0 +1,17 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purple-gradient-main" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/> <stop offset="1" stop-color="#4C1D95"/> </linearGradient>
+
+    <linearGradient id="purple-gradient-light" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/> <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M50 5L89 27.5V72.5L50 95L11 72.5V27.5L50 5Z" fill="#F3F4F6" stroke="#C4B5FD" stroke-width="1.5"/>
+
+  <rect x="30" y="55" width="8" height="20" rx="1" fill="#C4B5FD" />
+  <rect x="42" y="45" width="8" height="30" rx="1" fill="#A78BFA" />
+  <rect x="54" y="50" width="8" height="25" rx="1" fill="#8B5CF6" />
+  <rect x="66" y="35" width="8" height="40" rx="1" fill="#7C3AED" />
+</svg>

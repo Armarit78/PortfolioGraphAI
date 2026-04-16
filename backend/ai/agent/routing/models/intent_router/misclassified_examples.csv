@@ -1,0 +1,6 @@
+text,intent,true_intent,pred_intent,is_correct
+Montre-moi BNP Paribas contre Société Générale,compare,compare,screener,False
+Donne-moi le rendement annualisé de Tesla,stats,stats,price,False
+Quote for MSFT,price,price,chat,False
+Donne-moi le Sharpe de GOOGL,stats,stats,chat,False
+Performance de Nvidia sur 1y,stats,stats,compare,False

@@ -1,0 +1,12 @@
+@startuml rdcu disconnectAI
+skinparam style strictuml
+skinparam defaultfontname Verdana
+title RDCU disconnectAI()
+Participant ":ControllerConnexion" as cc
+
+
+->cc : disconnectAI()
+activate cc
+deactivate cc
+
+@enduml

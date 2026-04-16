@@ -1,0 +1,23 @@
+
+header{
+    flex-shrink: 0;
+}
+.nav-item:hover .nav-link:hover {
+    background-color: var(--background-color-light);
+    color: var(--text-color-white);
+    transform: translateY(-1px);
+    border-radius: 0;
+}
+
+.nav-item .nav-link{
+    color: var(--text-color-white);
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #dfdfdf !important;
+    color : var(--text-color-black) !important;
+    text-decoration: none;
+    border-radius: 0;
+    box-shadow: none;
+}

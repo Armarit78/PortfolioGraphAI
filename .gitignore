@@ -1,0 +1,107 @@
+# ===============================
+# 🌐 Fichiers sensibles / ENV
+# ===============================
+.env
+*.env
+*.key
+*.secret
+secrets.json
+*chats/*.json
+
+# ===============================
+# 🐍 Environnement virtuel
+# ===============================
+.venv/
+env/
+venv/
+ENV/
+*.pyc
+__pycache__/
+*/__pycache__/
+
+# ===============================
+# 🧪 Caches & artefacts Python
+# ===============================
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+*.log
+*.tmp
+*.pt
+
+# Caches
+.cache/
+pytest_cache/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# ===============================
+# 📦 Build & distribution
+# ===============================
+build/
+dist/
+*.egg
+*.whl
+
+# ===============================
+# 🧾 Logs & sorties
+# ===============================
+logs/
+*.log
+nohup.out
+*/chats/*.json
+
+# ===============================
+# 🧰 Editeurs & IDE
+# ===============================
+
+# PyCharm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# ===============================
+# 🌐 Frontend / Node
+# ===============================
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+frontend/package-lock.json
+
+# ===============================
+# 📊 Données / export
+# ===============================
+*.xlsx
+*.parquet
+*.h5
+
+# ===============================
+# ⚙️ OS & divers
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# 💬 Cache LangChain / HF
+# ===============================
+.huggingface/
+langchain.db
+lc_cache/
+vectorstore/
+index/
+indexes/
+chroma/
+
+# ===============================
+# 📁 Fichiers spécifiques Yahoo/Outils
+# ===============================
+yf_cache/
